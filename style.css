@@ -1,0 +1,276 @@
+header{
+  background-color: #BDBDBF;
+  border-radius: 24px;
+}
+
+body{
+  min-width: 1224px;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  background: #3E3E40;
+}
+
+footer {
+  text-align: center;
+  padding-bottom: 10%;
+  color: #0D0D0D;
+  display: contents;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+.sublinhado{
+  display:flex;
+}
+.desenharLinhas{
+  border-bottom: solid 4px #64758C;
+  width: 30px;
+  margin: 10px;
+}
+.esconderLetra{
+  display: none;
+  font-size: 18px;
+}
+
+.btn-iniciar {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 24px;
+  
+  position: absolute;
+  width: 280px;
+  height: 67px;
+  right: 5rem;
+  top: 20rem;
+  
+  /* Dark blue/dark-blue-300 */
+  
+  background: #64758C;
+  border-radius: 24px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 22px;
+  display: flex;
+  justify-content: center;
+
+/* White */
+
+  color: #F0F0F2;
+}
+
+.btn-palavra{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 24px;
+  position: absolute;
+  width: 280px;
+  height: 67px;
+  left: 5rem;
+  top: 20rem; 
+  border: 1px solid #64758C;
+  box-sizing: border-box;
+  border-radius: 24px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  justify-content: center;
+  color: #64758C;
+  }
+
+  .text-input {
+    /* Digite seu texto */
+  
+    position: absolute;
+    width: 600px;
+    height: auto;
+    left: 1.5rem;
+    top: 200px;
+  
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 150%;
+    justify-content: baseline;
+    /* identical to box height, or 48px */
+   
+  
+    /* Dark blue/dark-blue-300 */
+  
+    color: #64758C;
+    background: transparent;
+    border: none;
+    text-transform:uppercase;
+    }
+  ::placeholder { color: #64758C; text-transform:lowercase;}
+  
+  .text-input:focus { 
+      border: none;
+      outline: none;
+     }
+.logo{
+  position: absolute;
+  left: 50px;
+  right: 37.43%;
+  top: 50px;
+  bottom: 0%;
+  width: 50px;
+  height: 50px;
+}
+.img-alerta{
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+}
+ label {
+  flex-direction: row;
+  position: static;
+  width: 300px;
+  height: 18px;
+  left: 24px;
+  top: 0px;
+  padding-left: 25px;
+  font-weight: 600;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-size:18px;
+  line-height: 100%;
+
+  /* identical to box height, or 18px */
+  
+  
+  /* Gray/gray-300 */
+  color: #3E3E40;
+ }
+.form-group{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  
+  position: absolute;
+  width: auto;
+  height: 18px;
+  left: 2rem;
+  top: 41rem;
+ }
+.botoes-div{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  
+  position: absolute;
+  width: 680px;
+  height: 67px;
+  left: 0;
+  top: 43rem;
+ }
+.btn-azul {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 24px;
+
+  position: static;
+  width: 328px;
+  height: 67px;
+  left: 0px;
+  top: 0px;
+
+  background: #64758C;
+  border-radius: 24px;
+
+  flex: none;
+  border: 1px solid #3E3E40;
+  flex-grow: 0;
+  margin: 0px 24px;
+  flex-grow: 0;
+  color: #F0F0F2;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 19px;
+  justify-content: center; 
+
+}
+.btn-branco{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 24px;
+
+  position: static;
+  width: 328px;
+  height: 67px;
+  left: 352px;
+  top: 0px;
+
+  /* Light gray */
+
+  background: #3E3E40;
+  /* Dark blue/dark-blue-300 */
+
+  border: 1px solid #64758C;
+  box-sizing: border-box;
+  border-radius: 24px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 24px;
+
+  color: #64758C;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 19px;
+  justify-content: center;
+}
+.canvas{
+  margin-left: 1rem;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+  width: 600px;
+  height: 800px;
+}
+.botoes-div-canvas{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+
+  position: absolute;
+  width: 680px;
+  height: 67px;
+  left: 28.5rem;
+  top: 760px;
+  margin-bottom: 25px;
+ }
+ .botoes-home{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  left:42rem;
+ }
+ .palavra-nova{
+  position: absolute;
+  left: 30rem;
+ }
+
+ 
+ 
